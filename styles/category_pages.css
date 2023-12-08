@@ -3,11 +3,11 @@ body{
     margin: 0px ;
 }
 
-.all_recipes_grid{
+.recipes_category_grid{
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1f;
+    grid-template-rows: 1fr ;
     gap: 10px ;
     justify-content: space-around;
     align-items: center;
@@ -18,9 +18,9 @@ body{
 .category_headline{
     font-family: 'Noto Serif', serif;
     padding-left: 20px;
-    /* margin: 70px; */
     align-items: center;
     padding-top: 70px;
    font-size: 40px;
 }
+
 

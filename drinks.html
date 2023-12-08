@@ -3,21 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favoritos</title>
+    <title>Bebidas</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+
    <!--cabeçalho de todas as paginas -->
     <section  class="header">
-        
+       
         <h3 class="header_logo">D'bom Pitéu</h3>
         
             
         <nav class="header_nav_bar">
             <div class="header_nav_bar_links">
                 <a href="./index.html"> Página inicial</a>
-                <a href="./all_recipes.html">Receitas</a>
-                <a href="./sobre_nos.html">Sobre nós</a>
+                
+                <div class="header_dropdown">
+
+                    <button class="hearder_dropbtn">Receitas
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" height="16" width="10" 
+                            viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                            <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/>
+                        </svg>
+
+                    </button>
+
+                    <div class="header_dropdown_content">
+
+                        <a href="./all_recipes.html">Todas receitas</a>
+                        <a href="./main_plate.html">Prato principal</a>
+                        <a href="./drinks.html">Bebidas</a>
+                        <a href="./sweets.html">Doces</a>
+                        <a href="./favourites.html">Favoritas</a>
+                
+                    </div>
+
+                </div>
+
+                <a href="./about.html">Sobre nós</a>
                 <a href="./login.html">Login</a>
             </div>
 
@@ -41,17 +65,52 @@
     </section>
 
     <section> <!--titulo de todas a páginas -->
-    
+        <div class="category">
         
-        <h1 class="category_headline">
-            Suas receitas favoritas 
-        </h1>
+            <h1 class="category_headline">
+                O que beber...? 
+            </h1>
 
-       
+        </div>
             
     </section>
 
     <section class="cards">
+        <Div class="recipes_category">
+            <h2>
+                Drinks
+            </h2>
+
+            <div class="recipes_category_grid">
+                <div class="card_recipe"> 
+                    
+                    <img src="./assets/sumo mucua.jpg" 
+                        alt="recipe image" 
+                        class="card_image">
+                
+                    <div class="card_info">
+                        <h4 class="card_name">Sumo de Mucua </h4>
+        
+                        <div class="card_preparation_time">
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" height="16" width="16" 
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                <path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/>
+                            </svg>
+                            
+                            <p class="card_time"> 1h:30 min </p>
+                        </div>
+                            
+                    </div>
+                </div> 
+
+                
+
+            </div>
+
+
+        </Div>
+        
         
     </section>
 
@@ -66,8 +125,6 @@
                 Receitas para animar o seu dia!! 
             </p>
         </div>
-
-
         <div class="footer_contacts">
             <h1 class="footer_contacts_title">
              Contactos
@@ -99,8 +156,5 @@
             </div>
         </div>
     </section>
-
-
-    
 </body>
 </html>
