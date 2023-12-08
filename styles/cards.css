@@ -1,0 +1,72 @@
+.main_recipes{
+    padding: 2px 20px 20px 20px;
+}
+
+.main_recipes_title_bar{
+
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+
+}
+
+.main_recipes_grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1f;
+    gap: 10px ;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+
+}
+
+h2{
+    font-family: 'Noto Serif', serif;
+    margin:5px;
+}
+
+.card_recipe{
+    border: 2px;
+    border-radius: 5px;
+    max-width: 240px;
+    padding: 5px;
+    height: 325px;
+    
+
+}
+
+.card_image{
+    
+    border-radius: 5px;
+    max-width: 240px;
+    height: 225px;
+    object-fit:cover;
+}
+
+.card_identity{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.card_name {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
+
+}
+
+
+.card_preparation_time {
+    display: flex;
+    align-items:center;
+    gap: 6px;
+
+}
+.card_preparation_time p { 
+    font-size: 12px;
+    margin: 0%;
+    /* retirar a margem do paragrafo de forma a alinhar com o icon */
+}
