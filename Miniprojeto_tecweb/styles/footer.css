@@ -1,0 +1,55 @@
+.footer{ 
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    bottom:0%;
+    background-color:#000000;
+    padding: 80px 80px;
+    width: 100%;
+    
+   
+}
+.footer_contacts{
+    
+    padding:0px 200px 0px 5px;
+}
+
+
+.footer_email{
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+
+}
+.footer_git{
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+h1{
+    font-size:20px ;
+    text-align: center;
+}
+.footer_description{
+    font-size: 14px;
+}
+.footer a {
+    color: #fff;
+    padding: 0%;
+}
+.footer_paragraph{
+
+    font-size: 12px;
+}
+
+
+
+

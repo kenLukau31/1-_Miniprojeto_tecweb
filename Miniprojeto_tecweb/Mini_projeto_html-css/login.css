@@ -1,0 +1,28 @@
+.form{
+
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 800px;
+    gap: 20px;
+}
+
+.form_elements{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    gap: 20px;
+    font-family:'Noto Sans Glagolitic', sans-serif; 
+}
+
+label{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+
+}
+
