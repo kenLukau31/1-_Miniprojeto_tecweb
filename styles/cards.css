@@ -1,3 +1,5 @@
+
+/* ------------------------------home page's grid/cards------------- */
 .main_recipes{
     padding: 2px 20px 20px 0px;
 }
@@ -23,6 +25,12 @@
 
 }
 
+/* ------------------------------ rest of all pages' grid/cards---------------- */
+.recipe_card_page_link{
+
+    text-decoration: none;
+    color: #000;
+}
 h2{
     font-family: 'Noto Serif', serif;
     margin:20px;
@@ -75,3 +83,4 @@ h2{
     margin: 0%;
     /* retirar a margem do paragrafo de forma a alinhar com o icon */
 }
+

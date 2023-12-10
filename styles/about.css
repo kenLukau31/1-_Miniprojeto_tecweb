@@ -1,9 +1,9 @@
-.main_category{
+.about_category{
     margin-top: 70px;
     width: 100%;
 }
 
-.main_category_image{
+.about_category_headline_image{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,13 +16,13 @@
 }
 
 
-.main_category_texts{
+.about_category_headline_texts{
     
     justify-content: center;
     position: absolute;
 }
 
-.main_category_headline{
+.about_category_headline{
     width: 100%;
     top: 0px;
     font-family: 'Noto Serif', serif;
@@ -31,14 +31,14 @@
    
 }
 
-.main_category_description{
+.about_category_headline_description{
     text-align: center;
     width: 400px;
     font-size: 16px; 
    
 }
 
-.main_category_body{
+.about_category_body{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +48,7 @@
     
 }
 
-.main_paragraph{
+.about_paragraph{
    gap: 30px;
     width: 800px;
 }

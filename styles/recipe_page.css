@@ -1,0 +1,120 @@
+
+.recipe_page_identity_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 90px 40px 70px 40px;
+    border-radius: 10px;
+    gap: 20px;
+
+}
+
+.recipe_page_image{
+    border-radius: 10px;
+    background-image: url("../assets/cachupa.jpg");
+    background-size: cover;
+    width: 400px; 
+    height: 400px;
+}
+
+
+.recipe_page_container-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.recipe_page h5{
+    margin:0;
+}
+
+.recipe_page h1{
+    
+    top: 0%;
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+    margin: 0;
+    padding: 0; 
+}
+
+.recipe_page h2{
+    font-family:'Noto Sans Glagolitic', sans-serif;
+
+}
+
+.recipe_page_preparation_time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.recipe_ingredients{
+
+    padding: 10px 20px 20px ;
+    margin: 20px 40px 20px 40px;
+    background-color: #f1f1f1;
+    width: 90%;
+    border-radius: 10px;
+    
+}
+
+.recipe_preparation_method {
+    padding: 10px 20px 20px ;
+    margin: 20px 40px 100px 40px;
+    background-color: #f1f1f1;
+    width: 90%;
+    border-radius: 10px;
+    
+}
+
+.recipe_preparation_method ol{
+    font-size: 16px;
+    line-height: 2;
+    
+}
+
+.recipe_comments_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.recipe_comments_headline{
+
+    font-size: 20px;
+}
+
+.comments_form_textarea{
+
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000 ;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+.comments_form_container input{
+
+    padding: 12px 16px;
+    cursor: pointer; 
+    border: none;
+    border-radius: 4px;
+    font-size: larger;
+}
+
+hr{
+
+    width: 90%;
+   
+}
+
+
