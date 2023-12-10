@@ -23,4 +23,25 @@ body{
    font-size: 40px;
 }
 
+/* media queries- mobile suport  */
 
+@media screen and (max-width:768px) {
+
+    .recipes_category_grid{
+
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows:auto ;
+        gap: 10px ;
+        align-items: center;
+        padding: 2px 20px 20px 20px;
+       
+    }
+    .recipes_category{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+}

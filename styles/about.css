@@ -1,6 +1,6 @@
 .about_category{
     margin-top: 70px;
-    width: 100%;
+    
 }
 
 .about_category_headline_image{
@@ -12,7 +12,7 @@
     background-size: cover;
     height: 300px;
     position: relative;
-    width: 100%;
+    
 }
 
 
@@ -23,7 +23,7 @@
 }
 
 .about_category_headline{
-    width: 100%;
+    
     top: 0px;
     font-family: 'Noto Serif', serif;
     font-size: 50px;
@@ -33,8 +33,8 @@
 
 .about_category_headline_description{
     text-align: center;
-    width: 400px;
     font-size: 16px; 
+    padding: 50px;
    
 }
 
@@ -44,11 +44,37 @@
     align-items: center;
     margin: 70px;
     text-align:justify;
+  
     
     
 }
 
 .about_paragraph{
    gap: 30px;
-    width: 800px;
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .about_category_headline_image{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .about_category_body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 70px;
+        text-align:justify;
+        flex-wrap: wrap;
+        
+        
+    }
+    
+    .about_paragraph{
+       gap: 30px;
+       
+    }
+
 }

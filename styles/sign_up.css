@@ -36,13 +36,12 @@
 
 .input_form {
     
-    width: 400px;
     padding: 12px 2px;
-    margin: 0 0px 0 44px;
+    /* margin: 0 0px 0 20px; */
     border: none;
     border-radius: 5px; 
 }
 
 label{
-    margin: 20px 0 0 46px;
+    margin: 20px 0 0 0;
 }
